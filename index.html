@@ -1,0 +1,133 @@
+<html>
+<head>
+<div id="htmlContent">
+<title>RESUME</title>
+</head>
+<body>
+<style>
+table,th,td{
+border:2px solid black;
+border-collapse:collapse;
+}
+.bottomright {
+ position:absolute;
+ bottom:-600px;
+ right:650px;
+font-size:16px;
+}
+.topright {
+position: absolute;
+top: 140px;
+right:-00px;
+font-size: 20px;
+}
+a{
+text-decoration: none;
+color:black;
+}
+span{
+color:blue;
+}
+
+.only-print{display:
+none!important}@media print
+{.no-print,.no-print
+*{display:none!important}.only-print{display:block!important}
+footer{position:fixed;bottom:0}
+header{position:fixed;top:0}}
+</style>  
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff"></div>
+  <br><br>
+  <h1><center>Resume</center></h1>
+  <font size="5">Subash.N<br></font>
+  <font size="5">S/o R.Nagaraj <br></font>
+  <font size="5">11/74  Kendhala Katary post Selas The Nilgiris Tamilnadu </font>
+  <div class="topright corner"><a href="#">Mail Id:<span>subashsubash3664@gmail.com</span></a><br><a href="https://github.com/subash-cs21/">GitHub Id:<span>subash-cs21</span></a><br>Contact Number:7094624288</div>
+  <hr/>
+  <p><h3>Objectives</h3></p>
+  <ul>
+  <li>To work in a challenging environment where i can proof myelf by utilizing my skill,knowledge and resulting organizationalgrowth as well asindividual development
+ </li>
+  </ul>
+<h3>Education </h3>
+         <table border="2" style="width:80%">
+    <tr>
+      <th> Course Name</th>
+      <th> Instuitution</th>
+      <th> University</th>
+     <th> Percentage</th>
+      </tr>
+      <tr>
+        <td>BSC.Computer Science</td>
+      <td>Kaamadhenu Arts and Science College</td>
+      <td>Bharathiar University
+      <td>72%</td>
+    </tr>
+    <tr>
+      <td>HSC</td>
+    <td>st antonys higher secondary School</td>
+      <td>State Board</td>
+      <td>68.5%</td>
+    </tr>
+   <tr>
+       <td>SSLC</td>
+     <td>timber tops metriculation  School</td>
+        <td>State Board</td>
+        <td>51.2%</td>
+      </tr>
+    </table>
+  <p class="head"><h3>Programming Skills</h3></p>
+  <ul>
+      <li>C</li>
+      <li>c++</li>
+      <li>java</li>
+      <li>Ms office</li>    
+      <li>Linux Shell Programming</li>
+      <li> windows 7,10</li>
+  </ul>
+  <p class="head"><h3>Programming Summery</h3></p>
+  <ul>
+  <li>I have learnt<b> C </b> and <b> Java </b> in looping concept and recursion condition.</li>
+  <li>Curd in <b> Database </b> </li>
+  <li> By using<b> SQL </b> and <b> My SQL </b> to learn database </li>
+  <li> I have learnt basic <b> Linux </b> commands.
+  </ul>
+<p><h3>Interests</h3></p>
+<ul>
+  <li>listening music</li>
+  <li>cooking</li>
+  <li>Reading  Books</li>
+  </ul>
+ <p class="head"><h3>Extra Curricular Activity </h3>
+  <ul>
+    <li> won prizes and certificate in intercolliaget met</li>
+    <li>Online certificate in Python</li>
+    <li>Certifact in Communicative English</li>
+  </ul>
+<p class="head"><h3>Declaration</h3></p>
+<ul>
+  <li>I hereby declared that the information purnished above is true to the best of my knowledge and belief</li>
+</ul>  
+<p class="head"><h3><b>Date:</b></h3></p>
+<p class="head"><h3><b>Place:</b></h3></p> <h3><center><b>Signture</b></center></h3>
+</body>
+</div>
+<br>
+<center>
+<button onclick="printDiv('htmlContent')">Print / Save Pdf</button>
+</center>
+<script type="text/javascript">
+
+      function printDiv(div_id)
+    {
+     var divToPrint=document.getElementById(div_id);
+     var newWin=window.open('','Print-Window');
+     newWin.document.open();
+     newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+     newWin.document.close();
+     setTimeout(function() { newWin.close();},10);
+    }
+</script>
+</html>
